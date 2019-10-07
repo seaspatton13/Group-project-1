@@ -19,7 +19,7 @@
      <!-- <script src="https://sdk.scdn.co/spotify-player.js"></script> -->
      <!-- <script>
     window.onSpotifyWebPlaybackSDKReady = () => {
-    const userAccessToken = "[access token]";
+    const userAccessToken = "[BQBFwjVuDwyaUD9RkwWeisRxaH0UDY9Fzsyf_p6IIpldNIdFcqOfv-4ZjCQ61Kt8RJV74VuB4Vt3cVb6AzhdrqZVcaWOOJeBF9D3h3TMfhf_71atF2AmXB0xrcO7AygmSscUjNWYd-v5Q8zTixyMA5FQ8gXQjyVpp4hxDAToS26Nm0dRqcTJvXPD4w]";
     const webPlayback = new Spotify.Player({
     name: "Spotify Web Playback SDK",
     getOAuthToken: callback => { callback(token)}
@@ -27,3 +27,5 @@
    webPlayback.connect();
    };
    </script> -->
+
+accuWeather api key 4ffYaAvZULlsJ9EdAUOdsOCl5OSDParD
