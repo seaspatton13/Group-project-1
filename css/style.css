@@ -3,7 +3,7 @@
   text-align: center;
 }
 body {
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./assets/images/pexels-photo-325185.jpeg);
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/images/pexels-photo-325185.jpeg);
   background-size: cover;
   height: 100vh;
   background-position: center;
