@@ -1,11 +1,48 @@
-/* css to hold the footer (sticky) to the bottom of the page */
-
+#name {
+  font-size: 56px;
+  text-align: center;
+}
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./assets/images/pexels-photo-325185.jpeg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+#Current {
+  margin-top: 50px;
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+#Recommended {
+  margin-top: 10px;
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+  
+}
+#Top-Cities {
+  margin-top: 10px;
+  width: 300px;
+  height: 250px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+#login-signup {
+  margin-top: 10px;
+  width: 300px;
+  height: 180px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+p {
+  text-align: center;
+  color: white;
 
-  main {
-    flex: 1 0 auto;
-  }
+}
+#description {
+  font-size: 18px;
+}
