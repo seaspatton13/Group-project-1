@@ -10,11 +10,12 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 #Current {
-  margin-top: 50px;
+  margin-top: 30px;
   width: 300px;
   height: 100px;
   border: 1px solid blue;
   box-sizing: border-box;
+  margin-left: 20px;
 }
 #Recommended {
   margin-top: 10px;
@@ -22,6 +23,7 @@ body {
   height: 100px;
   border: 1px solid blue;
   box-sizing: border-box;
+  margin-left: 20px;
   
 }
 #Top-Cities {
@@ -30,6 +32,7 @@ body {
   height: 250px;
   border: 1px solid blue;
   box-sizing: border-box;
+  margin-left: 20px;
 }
 #login-signup {
   margin-top: 10px;
@@ -37,6 +40,7 @@ body {
   height: 180px;
   border: 1px solid blue;
   box-sizing: border-box;
+  margin-left: 20px;
 }
 p {
   text-align: center;
@@ -45,4 +49,15 @@ p {
 }
 #description {
   font-size: 18px;
+}
+.s3 {
+  background-color: rgba(34, 33, 33, 0.897);
+  height: 100%;
+}
+.input-field input[type=text]:focus + label {
+  color: #000;
+}
+
+.input-field {
+  margin-left: 500px;
 }
