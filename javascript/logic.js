@@ -72,7 +72,16 @@ var APIKey = "032d25d4514ca8a1b170b39afbfd4f50";
       method: "GET"
     })
 
-
+//-----------------------------------------------//
+// Between Function //
+between = function(a,b){
+    var min = Math.min.apply(Math, [a,b]),
+    max = Math.max.apply(Math, [a,b]);
+    return this > min && this < max;
+  };
+  between = function(n,min,max) {
+    return n > min && n < max;
+  };
 
 
 
