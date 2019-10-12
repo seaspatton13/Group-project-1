@@ -52,12 +52,18 @@ p {
 }
 .s3 {
   background-color: rgba(34, 33, 33, 0.897);
-  height: 100%;
+  height: auto;
 }
-.input-field input[type=text]:focus + label {
-  color: #000;
-}
-
 .input-field {
   margin-left: 500px;
+}
+.btn-large {
+margin-left: 480px;
+}
+#first_name2{
+  display: flex;
+  justify-content: center;
+}
+.email {
+  margin-top: 50px;
 }
