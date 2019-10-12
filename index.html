@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Welcome pahe</title>
     <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Anton|Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
@@ -15,17 +17,34 @@
                 <div class="col s3">
                   <div id="Current">
                       <p>Current destination selected</p>
+                      <li><a class="grey-text text-lighten-3" href="#!">Atlanta</a></li>
                   </div>
                   <div id="Recommended">
                       <p>Recommended destination</p>
+                      <li><a class="grey-text text-lighten-3" href="#!">Washington D.C.</a></li>
                   </div>
                   <div id="Top-Cities">
                       <p>Top destinations chosen</p>
+                      <li><a class="grey-text text-lighten-3" href="#!"></a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Manchester</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Memphis</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Portland</a></li>
                   </div>
                     <div id="login-signup">
-                      <p>login in form here</p> 
-                      <p>still trying to find the proper form via materialize insert inside the box</p>
+                      <div class="row">
+                          <div class="input-field col s9 email">
+                            <input value="Enter your email address" id="first_name2" type="text" class="validate">
+                            <label class="active" for="first_name2"></label>
+                          </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s9 password">
+                              <input value="Password" id="first_name2" type="text" class="validate">
+                              <label class="active" for="first_name2"></label>
+                            </div>
+                          </div>
                         <a class="waves-effect waves-light btn-small">Login</a>
+                        <a class="waves-effect waves-light btn-small">Sign Up</a>
                     </div>
         
                 </div>
@@ -42,11 +61,11 @@
                     <br>
                     <br>
                     <br>
-                    <br>
                     <div class="row">
                       <div class="input-field col s8">
                         <input value="Select your destination" id="first_name2" type="text" class="validate">
                         <label class="active" for="first_name2">Let's set the mood</label>
+                        <a class="waves-effect waves-light btn-large"><i class="material-icons left">cloud</i>Let's Go!</a>
                       </div>
                     </div>
                 </div>
@@ -54,6 +73,32 @@
                 </div>
           
               </div>
+              <footer class="page-footer">
+                <div class="container">
+                  <div class="row">
+                    <div class="col s12">
+                      <h5 class="white-text">Footer Content</h5>
+                      <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                      <h5 class="white-text">Links</h5>
+                      <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer-copyright">
+                  <div class="container">
+                  © 2020 Copyright Text
+                  <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                  </div>
+                </div>
+              </footer>
+                  
                     
 </body>
 </html>
