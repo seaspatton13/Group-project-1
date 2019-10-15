@@ -5,6 +5,7 @@
 body {
   background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/images/pexels-photo-325185.jpeg);
   background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   background-position: center;
   font-family: 'Roboto Condensed', sans-serif;
@@ -17,15 +18,6 @@ body {
   box-sizing: border-box;
   margin-left: 20px;
 }
-#Recommended {
-  margin-top: 10px;
-  width: 300px;
-  height: 100px;
-  border: 1px solid blue;
-  box-sizing: border-box;
-  margin-left: 20px;
-  
-}
 #Top-Cities {
   margin-top: 10px;
   width: 300px;
@@ -37,7 +29,7 @@ body {
 #login-signup {
   margin-top: 10px;
   width: 300px;
-  height: 180px;
+  height: 300px;
   border: 1px solid blue;
   box-sizing: border-box;
   margin-left: 20px;
@@ -51,11 +43,11 @@ p {
   font-size: 18px;
 }
 .s3 {
-  background-color: rgba(34, 33, 33, 0.897);
+  background-color: rgba(78, 75, 75, 0.897);
   height: auto;
 }
 .input-field {
-  margin-left: 500px;
+  float: left;
 }
 .btn-large {
 margin-left: 480px;
@@ -65,5 +57,34 @@ margin-left: 480px;
   justify-content: center;
 }
 .email {
-  margin-top: 50px;
+  margin-top: 10px;
+}
+.login {
+  margin-right: 50px;
+}
+.sign-up {
+  margin-left: 50px;
+}
+ul {
+  align-items: center;
+  list-style-type: none;
+  margin-right: 300px;
+}
+.a {
+  margin-right: 200px;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  color: aquamarine;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+}
+.foot {
+background-color: turquoise;
+}
+.form {
+  margin-left: 500px;
 }
