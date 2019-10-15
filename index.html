@@ -9,6 +9,12 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Anton|Roboto+Condensed&display=swap" rel="stylesheet">
+    <!-- <script>
+      audiojs.events.ready(function() {
+        audiojs.createAll();
+      });
+    </script> -->
+
 </head>
 <body>
         <div class="row">
@@ -84,15 +90,14 @@
                     <br>
                     <br>
                     <div class="player">
-                      <audio id="audio" preload="none" tabindex="0">
-                        <source src=".mp3" data-track-number=""> </audio>
+                      <audio src="music\mp3\bensound-love.mp3" preload="auto" ></audio>
                     </div>
                     <br>
                     <div class="row">
                       <div class="input-field col s8">
                         <input value="Select your destination" id="first_name2" type="text" class="validate">
                         <label class="active" for="first_name2">Let's set the mood</label>
-                        <a class="waves-effect waves-light btn-large"><i class="material-icons left">cloud</i>Let's Go!</a>
+                        <a class="waves-effect waves-light btn-large" id="letsGo"><i class="material-icons left">cloud</i>Let's Go!</a>
                       </div>
                     </div>
                 </div>
@@ -110,23 +115,21 @@
                     <div class="col l4 offset-l2 s12">
                       <h5 class="white-text">Links</h5>
                       <ul>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+
                       </ul>
                     </div>
                   </div>
                 </div>
                 <div class="footer-copyright">
                   <div class="container">
-                  © 2020 Copyright Text
+                  © Copyright
                   <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
                   </div>
                 </div>
               </footer>
               <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
               <script src="./javascript/logic.js"></script>
+              <script src="/audiojs/audio.min.js"></script>
                     
 </body>
 </html>

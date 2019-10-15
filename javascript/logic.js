@@ -1,14 +1,21 @@
+
 $(document).ready(function (response) {
-    var APIKey = "032d25d4514ca8a1b170b39afbfd4f50";
-    var queryURL = "https://api.openweathermap.org/data/2.5/weather?" +
-    "q=curent city=.............=" + APIKey;
+    var City= document.getElementById("first_name2").value;
+    var APIKey = "239baeb3d7504a29b783230cf19800cb";
+    var queryURL = "https://api.weatherbit.io/v2.0/current?city=" + City + "&key=" + APIKey;
     $.ajax({
       url: queryURL,
       method: "GET"
     })
+
+    $("letsGo").click(function(){
+
+
+    });
+    //  EXAMPLE URL CAll https://api.weatherbit.io/v2.0/current?city=Atlanta&key=239baeb3d7504a29b783230cf19800cb
     var response = {};
-    // .then (function(response){
- // Get Location 
+//     .then (function(response){
+//  Get Location 
     navigator.geolocation.getCurrentPosition(success, error);
 
     function success(pos) {
@@ -32,28 +39,27 @@ $(document).ready(function (response) {
 
     // Update Dom
     function updateDOM(data) {
-        var curent = data.name;
+        var curent = data.weather.code;
         var temp = Math.round(data.main.temp_max);
-        var desc = data.weather[0].description;
-        var icon = data.weather[0].icon;
+        var desc = data.weather.description;
+        var icon = data.weather.icon;
 
-        $('#current').html(current);
+        $('#current').html(code);
         $('#temp').html(temp)
         $('#desc').html(desc);
         $('#icon').attr('src', icon);
     }
 });
-<<<<<<< HEAD
 
 
-*/////////////////////////////////////////
+///////////////////////////////////////
 
 
 var weatherCondition = [
 
 ];
 
-for var i = 0; i < currentWeather.lenght; i++ {
+for var i = 0; i < currentWeather.length; i++ {
 
 }
 if (weatherCondition < 0 && ) {
@@ -68,16 +74,6 @@ if (weatherCondition < 0 && ) {
   ................;
 }
 
-var APIKey = "032d25d4514ca8a1b170b39afbfd4f50";
-
-    
-    var queryURL = "https://openweathermap.org/find?q=Atlanta"+ APIKey;
-
-    
-    $.ajax({
-      url: queryURL,
-      method: "GET"
-    })
 
 //-----------------------------------------------//
 // Between Function //
@@ -111,7 +107,6 @@ between = function(a,b){
 5- if condition that determine the current weather 
 6-Display music according to the weather
 */
-=======
  // Transfer content to HTML
  $(".city").html("<h1>" + response.name + " Weather Details</h1>");
  $(".wind").text("Wind Speed: " + response.wind.speed);
@@ -136,4 +131,3 @@ between = function(a,b){
 // 4-Loop through that variable to get the current weather 
 // 5- if condition that determine the current weather 
 // Display music according to the weather
->>>>>>> edb3ef5cb8ffc4d3c19b16c754ed108fffcfa35c
