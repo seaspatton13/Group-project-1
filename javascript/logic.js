@@ -43,6 +43,75 @@ $(document).ready(function (response) {
         $('#icon').attr('src', icon);
     }
 });
+<<<<<<< HEAD
+
+
+*/////////////////////////////////////////
+
+
+var weatherCondition = [
+
+];
+
+for var i = 0; i < currentWeather.lenght; i++ {
+
+}
+if (weatherCondition < 0 && ) {
+ ................ ;
+} else if (weatherCondition < 30) {
+  ...............;
+} else if {weatherCondition < 60
+  ...............;
+} else if {weatherCondition < 100
+  .................;
+} else {
+  ................;
+}
+
+var APIKey = "032d25d4514ca8a1b170b39afbfd4f50";
+
+    
+    var queryURL = "https://openweathermap.org/find?q=Atlanta"+ APIKey;
+
+    
+    $.ajax({
+      url: queryURL,
+      method: "GET"
+    })
+
+//-----------------------------------------------//
+// Between Function //
+between = function(a,b){
+    var min = Math.min.apply(Math, [a,b]),
+    max = Math.max.apply(Math, [a,b]);
+    return this > min && this < max;
+  };
+  between = function(n,min,max) {
+    return n > min && n < max;
+  };
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+1-create a web app that plays music according to the weather
+2-API calls from music app and and weather app
+   *Call weather API First (Time, temperature, rain, sun, snow...)
+   *Call Music API then (cool Jazz, rock, funck, slow, R&B...)
+3-create variable that hold the current weather
+4-Loop through that variable to get the current weather 
+5- if condition that determine the current weather 
+6-Display music according to the weather
+*/
+=======
  // Transfer content to HTML
  $(".city").html("<h1>" + response.name + " Weather Details</h1>");
  $(".wind").text("Wind Speed: " + response.wind.speed);
@@ -67,3 +136,4 @@ $(document).ready(function (response) {
 // 4-Loop through that variable to get the current weather 
 // 5- if condition that determine the current weather 
 // Display music according to the weather
+>>>>>>> edb3ef5cb8ffc4d3c19b16c754ed108fffcfa35c
